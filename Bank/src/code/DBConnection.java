@@ -8,7 +8,7 @@ public class DBConnection {
 	public static Connection connect() {
 		String url="jdbc:mysql://localhost:3306/bankaccounts";
 		String UserName="root";
-		String Password="Kulvant@26";
+		String Password="root";
 		Connection con = null;
 		try {			
 			con = DriverManager.getConnection(url,UserName,Password);
